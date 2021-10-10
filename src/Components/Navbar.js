@@ -1,5 +1,6 @@
 import React from 'react';
 import avatar from "../images/avatar.jpeg";
+// import rabia_main2 from "../images/rabia_main2.png";
 import { NavLink } from "react-router-dom";
 
 

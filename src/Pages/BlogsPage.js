@@ -11,23 +11,18 @@ function BlogsPage() {
             <div className="b-title">
                 <Title title={'My Blogs'} span={'My Blogs'} />
             </div>
+            <p className="b-text">You can have a look at the blog posts I have written describing my projects and the experiences I had during my projects</p>
             <div className="BlogsPage">
-                <div className="blog">
+                <div className="blog" style={{marginRight: "30px"}}>
                     <div className="blog-content">
                         <img height="250px" width="250px" src={blog7} alt="" />
-                        <p class="blog-title">Blog 1</p>
+                        <p class="blog-title">Nordstrom Clone</p>
                     </div>
                 </div>
                 <div className="blog">
                     <div className="blog-content">
                         <img height="250px" width="250px" src={blog6} alt="" />
-                        <p class="blog-title">Blog 2</p>
-                    </div>
-                </div>
-                <div className="blog">
-                    <div className="blog-content">
-                        <img height="250px" width="250px" src={blog4} alt="" />
-                        <p class="blog-title">Blog 3</p>
+                        <p class="blog-title">EaseMyTrip Clone</p>
                     </div>
                 </div>
             </div>

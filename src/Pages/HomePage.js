@@ -14,7 +14,8 @@ function HomePage() {
                     <span> Rabia Basari</span>
                 </h1>
                 <p className="home-sub-text">
-                    A focused and passionate Full-Stack Developer and a team player with a <br/>specialization in MERN stack.
+                    A focused and passionate Full-Stack Web Developer and a team player with a <br />specialization in MERN stack.
+                    I like to code things from scratch, and enjoy bringing <br/> ideas to life in the browser.
                 </p>
                 <div className="icons">
                     <a href="https://github.com/Rabia-Basari777" target="_blank">

@@ -7,7 +7,7 @@ function Categories({title}) {
         <div>
             <div className="ImageSection">
                 <div className="img">
-                    <img width="100%" src={gif2} alt="" />
+                    <img  style={{width: "110%"}} src={gif2} alt="" />
                     {/* <iframe src="https://giphy.com/embed/L1R1tvI9svkIWwpVYr" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/Pluralsight-computer-technology-coding-L1R1tvI9svkIWwpVYr">via GIPHY</a></p> */}
                 </div>
                 <div style={{marginLeft: "20px"}} className="about-info">
@@ -20,13 +20,13 @@ function Categories({title}) {
                             <p>Duration</p>
                             <p>Team</p>
                             <p>Objective</p>
-                            <p>Tech Stack</p>
+                            <p style={{marginTop: "28px"}}>Tech Stack</p>
                         </div>
                         <div className="right-section">
                             <p>: 3</p>
                             <p>: 6 Days</p>
                             <p>: Neeral Malwal, Rabia Basari, Sumit Kumar</p>
-                            <p>: To clone the Nordstrom website</p>
+                            <p>: To build the clone of a popular  e-commerce website <br/>Nordstrom </p>
                             <p>: HTML, CSS, JavaScript, MongoDB, ExpressJS</p>
                         </div>
                     </div>
@@ -49,14 +49,15 @@ function Categories({title}) {
                             <p>Duration</p>
                             <p>Team</p>
                             <p>Objective</p>
-                            <p>Tech Stack</p>
+                            <p style={{marginTop: "28px"}}>Tech Stack</p>
                         </div>
                         <div className="right-section">
                             <p>: 4</p>
                             <p>: 6 Days</p>
                             <p>: Niket, Rabia Basari, Sumit Kumar, Vipul Soni</p>
-                            <p>: To clone the EaseMyTrip website</p>
-                            <p>: HTML, CSS, JavaScript, MongoDB, ExpressJS</p>
+                            <p>: To build the clone the website of an Indian online travel <br/>
+                                company EaseMyTrip </p>
+                            <p>: HTML, CSS, JavaScript, React, MongoDB, ExpressJS</p>
                         </div>
                     </div>
                     <a href="https://github.com/Rabia-Basari777/easemytrip-clone.git" target="_blank">

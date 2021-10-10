@@ -1,6 +1,6 @@
 .BlogsPage {
     display: flex;
-    flex-direction: column;
+    // flex-direction: column;
     // flex-wrap: wrap;
     .blog {
         background-color: #161925;
@@ -18,7 +18,7 @@
                 &:hover {
                     transform: scale(1.1)
                 }
-                padding-bottom: 2rem;
+                // padding-bottom: 2rem;
             }
             .blog-title {
                 text-align: center;
@@ -26,7 +26,7 @@
                 font-family: inherit;
                 text-decoration: none;
                 font-size: 2rem;
-                padding-bottom: 2rem;
+                padding-top: 2rem;
                 transition: all .4s ease-in-out;
                 &:hover {
                     color: #037FFF;
@@ -44,6 +44,9 @@
     // }
 }
 
-.b-title {
-    margin-bottom: 4rem;
+.b-text {
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    font-size: 1.5rem;
 }
