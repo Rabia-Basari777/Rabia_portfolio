@@ -23,9 +23,11 @@ function HomePage() {
                             <FontAwesomeIcon icon={faGithub} className="icon fb" />
                         </div>
                     </a>
-                    <Link className="icon-holder">
-                        <FontAwesomeIcon icon={faMedium} className="icon gh" />
-                    </Link>
+                     <a href="https://rabiabasari7.medium.com/our-experience-of-building-clone-of-nordstrom-com-58be23757949" target="_blank">
+                        <div className="icon-holder">                       
+                            <FontAwesomeIcon icon={faMedium} className="icon gh" />                        
+                        </div>
+                    </a>
                     <a href="https://www.linkedin.com/in/rabia-basari-2103/" target="_blank">
                         <div className="icon-holder">
                             <FontAwesomeIcon icon={faLinkedin} className="icon yt" />
