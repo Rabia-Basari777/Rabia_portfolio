@@ -5,7 +5,7 @@ import React from 'react';
 function SkillsSection({skill, progress, width}) {
     return (
         <div classNmae="SkillsSection">
-            <button style={{marginRight: "20px", marginTop: "5rem"}} className="btn">HTML5</button>
+            <button style={{marginRight: "20px", marginTop: "10rem"}} className="btn">HTML5</button>
             <button style={{marginRight: "20px"}} className="btn">CSS3</button>
             <button style={{marginRight: "20px"}} className="btn">JavaScript</button>
             <button style={{marginRight: "20px"}} className="btn">React</button>

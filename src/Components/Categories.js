@@ -1,68 +1,58 @@
 import React from 'react';
-import gif2 from "../images/gif2.gif";
-import gif4 from "../images/gif4.gif";
+// import gif2 from "../images/gif2.gif";
+import reactIcon from "../images/reactIcon.png";
+import html from "../images/html.png";
+import css from "../images/css.png";
+import js from "../images/javascript.png";
+import bootstrap from "../images/bootstrap.jpg";
+import landing from "../images/landingPage.PNG";
+import mongo from "../images/mongodb2.jpg";
+import mui from "../images/mui.jpg";
+import ease from "../images/easemyTripLand.jpeg";
 
 function Categories({title}) {
     return (
         <div>
-            <div className="ImageSection">
-                <div className="img">
-                    <img  style={{width: "110%"}} src={gif2} alt="" />
-                    {/* <iframe src="https://giphy.com/embed/L1R1tvI9svkIWwpVYr" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/Pluralsight-computer-technology-coding-L1R1tvI9svkIWwpVYr">via GIPHY</a></p> */}
-                </div>
-                <div style={{marginLeft: "20px"}} className="about-info">
-                    <h4>
-                        <span> Nordstrom Clone</span>
-                    </h4>
-                    <div className="about-details">
-                        <div className="left-section">
-                            <p>Team Size</p>
-                            <p>Duration</p>
-                            <p>Team</p>
-                            <p>Objective</p>
-                            <p style={{marginTop: "28px"}}>Tech Stack</p>
-                        </div>
-                        <div className="right-section">
-                            <p>: 3</p>
-                            <p>: 6 Days</p>
-                            <p>: Neeral Malwal, Rabia Basari, Sumit Kumar</p>
-                            <p>: To build the clone of a popular  e-commerce website <br/>Nordstrom </p>
-                            <p>: HTML, CSS, JavaScript, MongoDB, ExpressJS</p>
-                        </div>
+            <div>
+                <div className="projectSection">
+                    <div className="img">
+                        <img src={ease} alt="" />
+                        {/* <iframe src="https://giphy.com/embed/L1R1tvI9svkIWwpVYr" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/Pluralsight-computer-technology-coding-L1R1tvI9svkIWwpVYr">via GIPHY</a></p> */}
                     </div>
-                    <a href="https://github.com/neerajmasai/nordstrom-website-clone.git" target="_blank">
-                        <button style={{width: "30%"}} className="btn">Take A Look</button>
-                    </a>
+                    <h1>EaseMyTrip Clone</h1>
+                    <p>EaseMyTrip is an Indian Online travel company that provides
+                        hotel bookings, air tickets, holiday packages, bus bookings and white-label services.
+                    </p>
+                    <div className="btnDiv">
+                        <button className="projectBtn">Github</button>
+                        <button className="projectBtn">Demo</button>
+                    </div>
+                    <div className="projectIcons">
+                        <img src={reactIcon} alt="" />
+                        <img src={css} alt="" />
+                        <img style={{borderRadius: "48%", height: "50px"}} src={mongo} alt="" />
+                        <img style={{borderRadius: "48%", height: "50px"}} src={mui} alt="" />
+                    </div>
                 </div>
             </div>
-            <div style={{marginLeft: "20px"}} className="ImageSection">
-                <div className="img">
-                    <img width="80%" src={gif4} alt="" />
-                </div>
-                <div className="about-info">
-                    <h4>
-                        <span> EaseMyTrip Clone</span>
-                    </h4>
-                    <div className="about-details">
-                        <div className="left-section">
-                            <p>Team Size</p>
-                            <p>Duration</p>
-                            <p>Team</p>
-                            <p>Objective</p>
-                            <p style={{marginTop: "28px"}}>Tech Stack</p>
-                        </div>
-                        <div className="right-section">
-                            <p>: 4</p>
-                            <p>: 6 Days</p>
-                            <p>: Niket, Rabia Basari, Sumit Kumar, Vipul Soni</p>
-                            <p>: To build the clone the website of an Indian online travel <br/>
-                                company EaseMyTrip </p>
-                            <p>: HTML, CSS, JavaScript, React, MongoDB, ExpressJS</p>
-                        </div>
+            <div>
+                <div className="projectSection">
+                    <div className="img">
+                        <img src={landing} alt="" />
+                        {/* <iframe src="https://giphy.com/embed/L1R1tvI9svkIWwpVYr" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/Pluralsight-computer-technology-coding-L1R1tvI9svkIWwpVYr">via GIPHY</a></p> */}
                     </div>
-                    <a href="https://github.com/Rabia-Basari777/easemytrip-clone.git" target="_blank">
-                        <button style={{width: "30%"}} className="btn">Take A Look</button>
-                    </a>
+                    <h1>Nordstrom Clone</h1>
+                    <p>Nordstrom is an international e-commerce website, which provides clothing, footwear, handbags, jewellery, accessories, cosmetics and frangrances.</p>
+                    <div className="btnDiv">
+                        <button className="projectBtn">Github</button>
+                        <button className="projectBtn">Demo</button>
+                    </div>
+                    <div className="projectIcons">
+                        <img src={html} alt="" />
+                        <img src={css} alt="" />
+                        <img src={js} alt="" />
+                        <img style={{borderRadius: "48%", height: "55px"}} src={bootstrap} alt="" />
+                    </div>
                 </div>
             </div>
         </div>

@@ -1,6 +1,7 @@
 import React from 'react';
-import avatar from "../images/avatar.jpeg";
+// import avatar from "../images/avatar.jpeg";
 // import rabia_main2 from "../images/rabia_main2.png";
+import rabs from "../images/rabs.jpg";
 import { NavLink } from "react-router-dom";
 
 
@@ -9,7 +10,7 @@ function Navbar() {
         <div className="Navbar">
             <nav className="nav">
                 <div className="profile">
-                    <img height="180px" width="180px" src={avatar} alt=""/>
+                    <img height="220px" width="200px" src={rabs} alt=""/>
                 </div>
                 <ul className="nav-items">
                     <li className="nav-item">
