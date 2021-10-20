@@ -1,17 +1,17 @@
 .projectSection {
     width: 80%;
-    height: 90vh;
+    height: 570px;
     margin-top: 4rem;
     margin-bottom: 4rem;
     border-radius: 10px;
     transition: all;
-    border: 1px solid rgb(164,172,196);
-    box-shadow: 0px 0px 12px rgb(164,172,196);
+    border: 1px solid #4e95dd;
+    box-shadow: 0px 0px 8px #4e95dd;
     .img {
         width: 100%;
         // height: ;
         padding-top: 0px;
-        border-bottom: 1px solid rgb(164,172,196);
+        border-bottom: 1px solid #4e95dd;
         img {
             width: 100%;
             height: 250px;
@@ -67,8 +67,8 @@
     width: 100%;
     height: 16vh;
     margin-top: 0.5rem;
-    padding-top: 1.3rem;
-    border-top: 1px solid rgb(164,172,196);
+    padding-top: 0.7rem;
+    border-top: 1px solid #4e95dd;
     display: flex;
     justify-content: space-evenly;
     img {

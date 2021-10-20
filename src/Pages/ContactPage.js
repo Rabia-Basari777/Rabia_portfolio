@@ -3,11 +3,13 @@ import ContactItem from '../Components/ContactItem';
 import phone from "../images/phone.png";
 import email from "../images/email.png";
 import location from "../images/location.png";
+import github from "../images/github.png";
 import Title from '../Components/Title';
+// import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 function ContactPage() {
     return (
-        <div>
+        <div className="contactsPageTotal">
             <div className="title">
                 <Title title={'Contact Me'} span={'Contact Me'} />
             </div>
@@ -18,7 +20,8 @@ function ContactPage() {
                 <div className="contact-sect">
                     <ContactItem icon={phone} text={'+91 9492 488 994'} title={ 'Phone'}/>
                     <ContactItem icon={email} text={'rabiabasari7@gmail.com'} title={"Email"}/>
-                    <ContactItem icon={location} text={'Huda Colony, Hyderabad.'} title={'Address'} />
+                    <ContactItem icon={location} text={'Chanda Nagar, Hyderabad.'} title={'Address'} />
+                    <ContactItem icon={github} text={'rabia-basari-2103'} title={'LinkedIn'}/>
                 </div>
             </div>
         </div>

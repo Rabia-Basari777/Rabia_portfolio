@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMedium } from '@fortawesome/free-brands-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
-import {Link} from 'react-router-dom'
+// import {Link} from 'react-router-dom'
 
 function HomePage() {
     return (
@@ -18,22 +18,25 @@ function HomePage() {
                     I like to code things from scratch, and enjoy bringing <br/> ideas to life in the browser.
                 </p>
                 <div className="icons">
-                    <a href="https://github.com/Rabia-Basari777" target="_blank">
+                    <a href="https://github.com/Rabia-Basari777" target="_blank" rel="noopener noreferrer">
                         <div className="icon-holder">
                             <FontAwesomeIcon icon={faGithub} className="icon fb" />
                         </div>
                     </a>
-                     <a href="https://rabiabasari7.medium.com/our-experience-of-building-clone-of-nordstrom-com-58be23757949" target="_blank">
+                     <a href="https://rabiabasari7.medium.com/our-experience-of-building-clone-of-nordstrom-com-58be23757949" target="_blank" rel="noopener noreferrer">
                         <div className="icon-holder">                       
                             <FontAwesomeIcon icon={faMedium} className="icon gh" />                        
                         </div>
                     </a>
-                    <a href="https://www.linkedin.com/in/rabia-basari-2103/" target="_blank">
+                    <a href="https://www.linkedin.com/in/rabia-basari-2103/" target="_blank" rel="noopener noreferrer">
                         <div className="icon-holder">
                             <FontAwesomeIcon icon={faLinkedin} className="icon yt" />
                         </div>
                     </a>
                 </div>
+                <a href="https://drive.google.com/file/d/13AsUM3sc5sVwd0Q0wipcuDR-hMmVNf4m/view?usp=sharing" target="_blank" rel="norefferer" rel="noopener noreferrer">
+                    <button style={{width: "20%", marginLeft: "40%"}} className="btn"> Resume</button>
+                </a>
             </header>
         </div>
     )

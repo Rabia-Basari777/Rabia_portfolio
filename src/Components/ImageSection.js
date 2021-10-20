@@ -33,9 +33,9 @@ function ImageSection() {
                 </div> */}
                 <p></p>
                 <p className="about-text">You can read more about my education and much more in the PDF attached below</p>
-                <a href="https://drive.google.com/file/d/1hkMKDaC-zCSfTZ_mC8xmKClduO6HEt4P/view?usp=sharing" target="_blank" rel="norefferer">
+                {/* <a href="https://drive.google.com/file/d/1hkMKDaC-zCSfTZ_mC8xmKClduO6HEt4P/view?usp=sharing" target="_blank" rel="norefferer">
                     <button className="btn"> Resume</button>
-                </a>
+                </a> */}
             </div>
         </div>
     )
