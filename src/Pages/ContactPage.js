@@ -5,6 +5,7 @@ import email from "../images/email.png";
 import location from "../images/location.png";
 import github from "../images/github.png";
 import Title from '../Components/Title';
+import linkedin from "../images/linkedin.png";
 // import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 function ContactPage() {
@@ -21,7 +22,7 @@ function ContactPage() {
                     <ContactItem icon={phone} text={'+91 9492 488 994'} title={ 'Phone'}/>
                     <ContactItem icon={email} text={'rabiabasari7@gmail.com'} title={"Email"}/>
                     <ContactItem icon={location} text={'Chanda Nagar, Hyderabad.'} title={'Address'} />
-                    <ContactItem icon={github} text={'rabia-basari-2103'} title={'LinkedIn'}/>
+                    <ContactItem icon={linkedin} text={'rabia-basari-2103'} title={'LinkedIn'}/>
                 </div>
             </div>
         </div>
