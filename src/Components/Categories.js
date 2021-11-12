@@ -1,14 +1,14 @@
 import React from 'react';
 // import gif2 from "../images/gif2.gif";
-import reactIcon from "../images/react1.png";
+import reactMain2 from "../images/reactMain2.png";
 import redux from "../images/redux.jpeg";
-import html from "../images/html5.png";
-import css from "../images/css3.png";
-import js7 from "../images/js7.jpg";
-import bootstrap from "../images/bootstrap2.png";
-import mongo from "../images/mongodb2.jpg";
+import htmlMain from "../images/htmlMain.png";
+import css3Main2 from "../images/css3Main2.png";
+import jsMain from "../images/jsMain.png";
+import bootstrapMain from "../images/bootstrapMain.png";
+import mongoMain from "../images/mongoMain.png";
 import mui from "../images/mui2.png";
-import node from "../images/node.png";
+import nodeMain2 from "../images/nodeMain2.png";
 import landing from "../images/landingPage.PNG";
 import ease from "../images/easemyTripLand.jpeg";
 
@@ -33,10 +33,10 @@ function Categories({title}) {
                         </a>
                     </div>
                     <div className="projectIcons">
-                        <img style={{borderRadius: "50%"}} src={reactIcon} alt="" />
-                        <img style={{borderRadius: "50%"}} src={css} alt="" />
-                        <img style={{borderRadius: "48%", height: "50px"}} src={mongo} alt="" />
-                        <img style={{borderRadius: "48%", height: "50px"}} src={node} alt="" />
+                        <img src={reactMain2} alt="" width="80px" height="85px" style={{marginTop: "5px"}}/>
+                        <img src={css3Main2} alt="" />
+                        <img src={mongoMain} alt="" />
+                        <img src={nodeMain2} alt="" />
                     </div>
                 </div>
             </div>
@@ -57,10 +57,10 @@ function Categories({title}) {
                         </a>
                     </div>
                     <div className="projectIcons">
-                        <img style={{borderRadius: "50%"}} src={html} alt="" />
-                        <img style={{borderRadius: "50%"}} src={css} alt="" />
-                        <img style={{borderRadius: "50%"}} src={js7} alt="" />
-                        <img style={{borderRadius: "50%"}} src={bootstrap} alt="" />
+                        <img src={htmlMain} alt="" />
+                        <img src={css3Main2} alt="" />
+                        <img src={jsMain} alt="" />
+                        <img src={bootstrapMain} alt="" />
                     </div>
                 </div>
             </div>
