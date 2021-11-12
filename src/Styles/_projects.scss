@@ -1,3 +1,10 @@
+.projectMainSection {
+    @media screen and (max-width: 411px) {
+        width: 150%;
+        margin-left: -15%;
+        // height: 100vh;
+    }
+}
 .projectSection {
     width: 80%;
     height: fit-content;
@@ -33,10 +40,7 @@
         width: 100%;
         // height: 123vh;
     }
-    @media screen and (max-width: 411px) {
-        width: 80%;
-        // height: 100vh;
-    }
+    // 
 }
 // .projectSecond {
 //     width: 81%;
@@ -62,6 +66,17 @@
         text-align: center;
         // align-items: center;
         margin-left: 4.5rem;
+    }
+    @media screen and (max-width: 411px) {
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        // width: 70%;
+        margin-left: 0.5rem;
+        text-decoration: none;
+        margin-left: 18%;
+        // margin-left: 0px;
+        // margin-right: 80px;
     }
 }
 .projectIcons {
@@ -120,12 +135,23 @@
 
     @media screen and (max-width: 411px) {
         display: flex;
+        text-align: center;
         flex-direction: column;
-        width: 70%;
+        // width: 70%;
         margin-left: 0.5rem;
+        text-decoration: none;
+        margin-left: 15%;
         // margin-left: 0px;
         // margin-right: 80px;
     }
+    // button {
+    //     @media screen and (max-width: 411px) {
+    //         padding: 1rem;
+    //         // text-align: center;
+    //         // align-items: center;
+    //         // place-items: center;
+    //     }
+    // }
 }
 .title {
     margin-bottom: 4rem;

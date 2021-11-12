@@ -15,7 +15,7 @@ import ease from "../images/easemyTripLand.jpeg";
 function Categories({title}) {
     return (
         <div>
-            <div>
+            <div className="projectMainSection">
                 <div className="projectSection">
                     <div className="img">
                         <img src={ease} alt="" />
@@ -40,7 +40,7 @@ function Categories({title}) {
                     </div>
                 </div>
             </div>
-            <div>
+            <div className="projectMainSection">
                 <div className="projectSection">
                     <div className="img">
                         <img src={landing} alt="" />
