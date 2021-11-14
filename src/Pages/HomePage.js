@@ -34,7 +34,7 @@ function HomePage() {
                         </div>
                     </a>
                 </div>
-                <a href="https://drive.google.com/file/d/1IzTsJF-KlqHGAGUrx7fmtP6S2gVUd5_Q/view?usp=sharing" target="_blank" rel="norefferer" rel="noopener noreferrer">
+                <a href="https://drive.google.com/file/d/1kflfP3aJoiFmQsaI-9RlcUZxbfD2VTZI/view?usp=sharing" target="_blank" rel="norefferer" rel="noopener noreferrer">
                     <button style={{width: "20%", marginLeft: "40%"}} className="btn"> Resume</button>
                 </a>
             </header>
