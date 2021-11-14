@@ -1,16 +1,17 @@
 import React from 'react';
 // import gif2 from "../images/gif2.gif";
 import reactMain2 from "../images/reactMain2.png";
-import redux from "../images/redux.jpeg";
+// import redux from "../images/redux.jpeg";
 import htmlMain from "../images/htmlMain.png";
 import css3Main2 from "../images/css3Main2.png";
 import jsMain from "../images/jsMain.png";
 import bootstrapMain from "../images/bootstrapMain.png";
 import mongoMain from "../images/mongoMain.png";
-import mui from "../images/mui2.png";
+// import mui from "../images/mui2.png";
 import nodeMain2 from "../images/nodeMain2.png";
 import landing from "../images/landingPage.PNG";
 import ease from "../images/easemyTripLand.jpeg";
+import linkedinHome from "../images/linkedinHome.PNG"
 
 function Categories({title}) {
     return (
@@ -18,17 +19,17 @@ function Categories({title}) {
             <div className="projectMainSection">
                 <div className="projectSection">
                     <div className="img">
-                        <img src={ease} alt="" />
+                        <img src={linkedinHome} alt="" />
                         {/* <iframe src="https://giphy.com/embed/L1R1tvI9svkIWwpVYr" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/Pluralsight-computer-technology-coding-L1R1tvI9svkIWwpVYr">via GIPHY</a></p> */}
                     </div>
-                    <h1>EaseMyTrip Clone</h1>
-                    <p>Built the clone of EaseMyTrip, an online travel portal where users can be able to search for flights basis date, departure and arrival places. Also implemented Filter functionality for airlines. 
+                    <h1>Linkedin Clone</h1>
+                    <p>Built the clone of Linkedin, a platform for professional networking and career developement. Implemented adding posts, like and comment feature. Built the networks page where we can send connect requests to different users. Also implemented the chat functionality where we acn send messages to different users in our network. 
                     </p>
                     <div className="btnDiv">
-                        <a href="https://github.com/Rabia-Basari777/easemytrip-clone.git" target="_blank" rel="noopener noreferrer">
+                        <a href="https://github.com/chiranjeev-thapliyal/linkedin-client.git" target="_blank" rel="noopener noreferrer">
                             <button className="projectBtn">Github</button>
                         </a>
-                        <a href="https://drive.google.com/file/d/1ZaJGsQXw-Pl9zNtJFRg9HVngTOwjwHUT/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                        <a href="https://linkedin-masai.netlify.app" target="_blank" rel="noopener noreferrer">
                             <button className="projectBtn">Demo</button>
                         </a>
                     </div>
@@ -52,7 +53,7 @@ function Categories({title}) {
                         <a href="https://github.com/Rabia-Basari777/nordstrom_clone.git" target="_blank" rel="noopener noreferrer">
                             <button className="projectBtn">Github</button>
                         </a>
-                        <a href="https://drive.google.com/file/d/1C5JfF0t1I6_cHZREayOVHTEhYkAvms0-/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                        <a href="https://nordstrom-clone-bay.vercel.app/" target="_blank" rel="noopener noreferrer">
                             <button className="projectBtn">Demo</button>
                         </a>
                     </div>
